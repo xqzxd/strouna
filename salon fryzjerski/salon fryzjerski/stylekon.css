@@ -1,0 +1,62 @@
+html, body, h1, h2, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    max-height: 100%;
+    min-width: 100%;
+    background-color: #070708;
+    position:relative;
+}
+
+#a {
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top:5%;
+}
+
+#tekst1 {
+    font-size: 100px;
+    margin-left: 5%;
+    margin-top: 3%;
+    float:left;
+    text-align: left;
+}
+
+#fot1 {
+    float:left;
+    margin-left: 5%;
+}
+
+#kontakty {
+    margin-top: 5%;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+#tel {
+    margin-left: 5%;
+}
+
+#logo {
+    margin-left: 4.5%;
+    float: left;
+}
+
+#fb {
+    margin-top: 0.5%;
+    margin-left: 1%;
+    float: left;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
